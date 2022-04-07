@@ -1,0 +1,7 @@
+com/paulhoang/User.class
+com/paulhoang/Profile.class
+com/paulhoang/Profile$Builder.class
+com/paulhoang/User$1.class
+com/paulhoang/Profile$1.class
+com/paulhoang/User$Builder.class
+com/paulhoang/KafkaAvroMultiTypeProducer.class

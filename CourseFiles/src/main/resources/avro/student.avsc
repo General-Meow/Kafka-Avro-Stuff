@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "namespace": "com.paulhoang",
+  "name": "Student",
+  "doc": "Schema that represents a student",
+  "fields": [
+    { "name": "firstName", "type": "string", "doc": "Students first name"},
+    { "name": "lastName", "type": "string", "doc": "Students last name"},
+    { "name": "age", "type": "int", "doc": "Students age"},
+    { "name": "campus", "type": "string", "doc": "Students main campus", "default": "London"}
+  ]
+}

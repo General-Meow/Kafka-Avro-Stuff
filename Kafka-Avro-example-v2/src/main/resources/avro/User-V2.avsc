@@ -1,0 +1,16 @@
+{
+  "type": "record",
+  "name": "User",
+  "doc": "The first version of a User schema",
+  "namespace": "com.paulhoang",
+  "version": "2",
+  "fields": [
+    { "name": "firstName", "type": "string", "doc": "The users first name" },
+    { "name": "lastName", "type": "string", "doc": "The users last name" },
+    { "name": "username", "type": "string", "doc": "The users username" },
+    { "name": "email", "type": "string", "doc": "The users email" },
+    { "name": "createdDate", "type": "long", "logicaltype": "timestamp-milli", "doc": "When the user was created" },
+    { "name": "lastLogInDate", "type": "long", "logicaltype": "timestamp-milli", "doc": "The users first name" },
+    { "name": "expired", "type": "boolean", "default": false, "doc": "optional expired defaults to false" }
+  ]
+}
