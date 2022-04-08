@@ -1,0 +1,38 @@
+{
+  "namespace": "locations.events.stores",
+  "type": "record",
+  "name": "store",
+  "subject": "stores",
+  "version": 1,
+  "fields": [
+    {"name": "place_id", "type": "string"},
+    {"name": "brand", "type": "string"},
+    {"name": "legacy_sainsburys_store_code", "type": ["null", "string"]},
+    {"name": "legacy_argos_store_code", "type": ["null", "string"]},
+    {"name": "ana_number", "type": ["null", "string"]},
+    {"name": "store_type", "type": ["null", "string"]},
+    {"name": "name", "type": ["null", "string"]},
+    {"name": "display_name", "type": "string"},
+    {"name": "parent_store", "type": ["null", "string"]},
+    {"name": "current_status", "type": "string"},
+    {"name": "future_status", "type": ["null", "string"]},
+    {"name": "open_date", "type": {"type": "int", "logicalType": "date"}},
+    {"name": "close_date", "type": [
+      "null",
+      {"type": "int", "logicalType": "date"}
+    ]
+    },
+    {"name": "store_opening_message","type": ["null", "string"]},
+    {"name": "currency_code", "type": "string"},
+    {"name": "vat_region", "type": ["null", "string"]},
+    {"name": "phone", "type": ["null", "string"]},
+    {"name": "manager", "type": ["null", "string"]},
+    {"name": "store_locator_url", "type": ["null", "string"]},
+    {"name": "region_id", "type": ["null", "string"]},
+    {"name": "region", "type": ["null", "string"]},
+    {"name": "zone_id", "type": ["null", "string"]},
+    {"name": "zone", "type": ["null", "string"]},
+    {"name": "selling_square_feet", "type": ["null", "string"]},
+    {"name": "total_square_feet", "type": ["null", "string"]}
+  ]
+}
