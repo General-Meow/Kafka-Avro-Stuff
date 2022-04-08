@@ -1,0 +1,11 @@
+{
+  "namespace": "locations.events.stores",
+  "type": "record",
+  "name": "storeevekeys",
+  "fields":[
+    {"name": "place_id", "type": "string"},
+    {"name": "subject", "type": "string"},
+    {"name": "brand", "type": ["null","string"]},
+    {"name": "extra", "type": ["null","string"]}
+  ]
+}
